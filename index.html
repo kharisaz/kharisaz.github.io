@@ -25,15 +25,14 @@
       transform: translateY(-5px);
     }
     .card .value {
-      font-size: 22px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 500;
     }
     .card .label {
-      font-size: 14px;
+      font-size: 12px;
       text-transform: uppercase;
       font-weight: 600;
     }
-
     .progress {
       height: 6px;
       border-radius: 10px;
@@ -44,24 +43,25 @@
 <body>
   <div class="container py-4">
     <h2>Smart Farming</h2>
-    <div class="row g-3">
 
-      <div class="col-md-3 col-sm-6">
+    <div class="row row-cols-1 row-cols-md-5 g-3">
+
+      <div class="col">
         <div class="card" style="border-left: 6px solid #3498db;">
-          <div class="label " style=" color: #3498db;">Kelembaban (RH)</div>
+          <div class="label" style="color: #3498db;">Kelembaban (RH)</div>
           <div class="value">54 %</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #1abc9c;">
-          <div class="label" style=" color: #1abc9c; ">TDS</div>
+          <div class="label" style="color: #1abc9c;">TDS</div>
           <div class="value">400 ppm</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="card" style=" border-left: 6px solid #00bcd4;">
+      <div class="col">
+        <div class="card" style="border-left: 6px solid #00bcd4;">
           <div class="label" style="color: #00bcd4;">Kekeruhan (Turbid)</div>
           <div class="value">18 NTU</div>
           <div class="progress mt-2">
@@ -70,36 +70,39 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #f1c40f;">
           <div class="label" style="color: #f1c40f;">Temperatur Air (WTEMP)</div>
           <div class="value">25 °C</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #e74c3c;">
           <div class="label" style="color: #e74c3c;">Aliran Air (WFLOW)</div>
           <div class="value">34</div>
         </div>
       </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-5 g-3 mt-1">
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #3498db;">
-          <div class="label" style=" color: #3498db;">Oksigen Terlarut (Diss. Oxygen)</div>
+          <div class="label" style="color: #3498db;">Oksigen Terlarut (Diss. Oxygen)</div>
           <div class="value">10 ppm</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #1abc9c;">
-          <div class="label" style=" color: #1abc9c; ">Intensitas Cahaya (Lux)</div>
+          <div class="label" style="color: #1abc9c;">Intensitas Cahaya (Lux)</div>
           <div class="value">100 Lux</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
-        <div class="card" style=" border-left: 6px solid #00bcd4;">
+      <div class="col">
+        <div class="card" style="border-left: 6px solid #00bcd4;">
           <div class="label" style="color: #00bcd4;">Temperatur Udara (AMTemp)</div>
           <div class="value">34 °C</div>
           <div class="progress mt-2">
@@ -108,14 +111,14 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #f1c40f;">
           <div class="label" style="color: #f1c40f;">EC</div>
           <div class="value">2</div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col">
         <div class="card" style="border-left: 6px solid #e74c3c;">
           <div class="label" style="color: #e74c3c;">pH</div>
           <div class="value">7.1</div>
@@ -128,4 +131,3 @@
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
